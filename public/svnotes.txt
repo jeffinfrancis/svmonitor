@@ -1,0 +1,6 @@
+create UI
+Call fetch api
+fill values
+store.getState();
+store.dispatch( addArticle({ title: 'React Redux Tutorial for Beginners', id: 1 }) );
+store.subscribe(() => console.log('Look ma, Redux!!'));
